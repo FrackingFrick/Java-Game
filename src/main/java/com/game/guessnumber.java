@@ -14,7 +14,6 @@ public class guessnumber {
         // System.out.println("number is "+ String.valueOf(NUMBER));
         int guesses=0;
 
-
         while (guess !=NUMBER){
             System.out.println("Guess a number between a 1 and 100");
             guess=player.nextInt();
