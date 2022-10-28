@@ -23,6 +23,9 @@ public class controller {
     @PostMapping("/game")
     public void newGame(){
          g=new Game();
+         int gamesPlayed=p.getGames();
+         gamesPlayed=gamesPlayed+1;
+         p.setGames(gamesPlayed);
     }
     @PutMapping()
     public String chosenNumber(){

@@ -2,7 +2,7 @@ package com.game;
 
 public class Player {
     private String name;
-    private Integer gamesPlayed;
+    private Integer gamesPlayed=0;
 
     public void setName(String name){
         this.name=name;
@@ -18,8 +18,7 @@ public class Player {
     return gamesPlayed;
    }
     public Player(){
-        this.name="Heta";
-        this.gamesPlayed=0;
+    
     }
     
 }
